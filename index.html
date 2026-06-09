@@ -33,10 +33,7 @@
     <h1 class="hero-name">Emmanuel<br><span>Nonso Elege</span></h1>
     <p class="hero-title">Data Scientist <span class="divider">|</span> NLP &amp; Machine Learning</p>
     <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Belfast, UK</p>
-    <div class="hero-btns">
-      <a href="#projects" class="btn btn-primary">View My Work</a>
-      <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-    </div>
+    <div class="hero-btns"><a href="#projects" class="btn btn-primary">View My Work</a><a href="#contact" class="btn btn-secondary">Get In Touch</a></div>
     <div class="hero-socials">
       <a href="https://www.linkedin.com/in/emmanuel-elege" target="_blank" class="social-btn linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a>
       <a href="mailto:nuel.elege@gmail.com" class="social-btn email"><i class="fas fa-envelope"></i> Email</a>
@@ -55,34 +52,21 @@
 <!-- ABOUT -->
 <section id="about" class="section about-section">
   <div class="container">
-    <div class="section-header">
-      <span class="section-label">Get to know me</span>
-      <h2 class="section-title">About Me</h2>
-    </div>
-    <div class="about-grid">
-      <div class="about-text">
+    <div class="section-header"><span class="section-label">Get to know me</span><h2 class="section-title">About Me</h2></div>
+    <div class="about-grid"><div class="about-text">
         <p>I am a Data Science graduate from Ulster University (Distinction) with a strong foundation in machine learning, NLP, and Python-based data pipelines.</p>
         <p>I specialise in building end-to-end ML models, designing data collection systems, and translating complex technical findings into actionable insights for non-technical stakeholders.</p>
         <p>Previously working as an IT Analyst at Startright Global, I used data-driven approaches to improve system workflows and drive measurable business outcomes.</p>
         <p>I bring a practical, iterative approach to problem-solving from initial problem definition through to working prototype and evaluation.</p>
-        <div class="about-tags">
-          <span class="tag">Machine Learning</span>
-          <span class="tag">NLP</span>
-          <span class="tag">Data Engineering</span>
-          <span class="tag">Health AI</span>
-        </div>
-      </div>
-    </div>
+        <div class="about-tags"><span class="tag">Machine Learning</span><span class="tag">NLP</span><span class="tag">Data Engineering</span><span class="tag">Health AI</span></div>
+      </div></div>
   </div>
 </section>
 
 <!-- SKILLS -->
 <section id="skills" class="section skills-section">
   <div class="container">
-    <div class="section-header">
-      <span class="section-label">What I work with</span>
-      <h2 class="section-title">Tech Stack</h2>
-    </div>
+    <div class="section-header"><span class="section-label">What I work with</span><h2 class="section-title">Tech Stack</h2></div>
     <div class="skills-grid">
       <div class="skill-card"><div class="skill-card-icon"><i class="fas fa-code"></i></div><h3>Languages</h3><ul><li>Python</li><li>SQL</li><li>Mathematics</li></ul></div>
       <div class="skill-card"><div class="skill-card-icon"><i class="fas fa-brain"></i></div><h3>ML &amp; AI</h3><ul><li>Scikit-Learn</li><li>PyTorch</li><li>NLP</li><li>Predictive Modeling</li><li>Supervised ML</li></ul></div>
@@ -95,74 +79,39 @@
 <!-- PROJECTS -->
 <section id="projects" class="section projects-section">
   <div class="container">
-    <div class="section-header">
-      <span class="section-label">What I have built</span>
-      <h2 class="section-title">Featured Projects</h2>
-    </div>
+    <div class="section-header"><span class="section-label">What I have built</span><h2 class="section-title">Featured Projects</h2></div>
     <div class="projects-grid">
 
       <div class="project-card">
-        <div class="project-card-header">
-          <span class="project-badge">Dissertation</span>
-          <h3 class="project-title">Eczema Scratch Detection via Wearable IMU Sensors</h3>
-        </div>
+        <div class="project-card-header"><span class="project-badge">Dissertation</span><h3 class="project-title">Eczema Scratch Detection via Wearable IMU Sensors</h3></div>
         <p class="project-desc">Investigated automatic detection of scratching behaviour using wearable IMU sensor data (accelerometer, gyroscope, magnetometer at 20 Hz). Compared traditional ML against Transformer-based deep learning architectures for binary sequence classification.</p>
-        <ul class="project-highlights">
-          <li>Custom wearable sensor dataset; sliding window preprocessing (size=40, step=20) with majority-label voting</li>
-          <li>Built Standard Transformer (2 layers, 4 heads) and Conformer (Conv1D + TransformerEncoder) in PyTorch</li>
-          <li>Zero false positives on flat/non-movement scenarios; detected 20 scratch events on validation data</li>
-          <li>Sensitivity analysis across window/step sizes via heatmap grid search</li>
-        </ul>
+        <ul class="project-highlights"><li>Custom wearable sensor dataset; sliding window preprocessing (size=40, step=20) with majority-label voting</li><li>Built Standard Transformer (2 layers, 4 heads) and Conformer (Conv1D + TransformerEncoder) in PyTorch</li><li>Zero false positives on flat/non-movement scenarios; detected 20 scratch events on validation data</li><li>Sensitivity analysis across window/step sizes via heatmap grid search</li></ul>
         <div class="project-tech"><span>Python</span><span>PyTorch</span><span>Scikit-learn</span><span>Transformer</span><span>IMU Data</span><span>Supervised ML</span></div>
-        <a href="https://github.com/Nuel-elege/data-science-projects/tree/main/Dissertation-Eczema-Detection" target="_blank" class="project-link"><i class="fab fa-github"></i> View Code</a>
+        <a href="https://github.com/Nuel-elege/data-science-projects/tree/main/Eczema-Scratch-Detection" target="_blank" class="project-link"><i class="fab fa-github"></i> View Code</a>
       </div>
 
       <div class="project-card">
-        <div class="project-card-header">
-          <span class="project-badge">ML Pipeline</span>
-          <h3 class="project-title">Customer Churn Prediction in Telecom</h3>
-        </div>
+        <div class="project-card-header"><span class="project-badge">ML Pipeline</span><h3 class="project-title">Customer Churn Prediction in Telecom</h3></div>
         <p class="project-desc">End-to-end ML pipeline to predict customer churn for a telecom provider using 7,043 customer records. Integrated business intelligence to derive actionable retention strategies.</p>
-        <ul class="project-highlights">
-          <li>Applied SMOTE for class imbalance; engineered features from demographics, usage, and contract data</li>
-          <li>Compared Logistic Regression, Random Forest (n=100), Decision Tree via Accuracy, Confusion Matrix, ROC-AUC</li>
-          <li>K-Means clustering (k=3): Loyal Long-Term, Price-Sensitive, and High-Risk Short-Term segments</li>
-          <li>Key churn drivers: tenure under 20 months, month-to-month contracts, monthly charges over $60</li>
-        </ul>
+        <ul class="project-highlights"><li>Applied SMOTE for class imbalance; engineered features from demographics, usage, and contract data</li><li>Compared Logistic Regression, Random Forest (n=100), Decision Tree via Accuracy, Confusion Matrix, ROC-AUC</li><li>K-Means clustering (k=3): Loyal Long-Term, Price-Sensitive, and High-Risk Short-Term customer segments</li><li>Key churn drivers: tenure under 20 months, month-to-month contracts, monthly charges over $60</li></ul>
         <div class="project-tech"><span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>K-Means</span><span>SMOTE</span><span>ROC-AUC</span></div>
-        <a href="https://github.com/Nuel-elege/data-science-projects/tree/main/COM735-Churn-Analysis" target="_blank" class="project-link"><i class="fab fa-github"></i> View Code</a>
+        <a href="https://github.com/Nuel-elege/data-science-projects/tree/main/Customer-Churn-Prediction" target="_blank" class="project-link"><i class="fab fa-github"></i> View Code</a>
       </div>
 
       <div class="project-card">
-        <div class="project-card-header">
-          <span class="project-badge">NLP / Deep Learning</span>
-          <h3 class="project-title">Political Bias Detection in News Articles</h3>
-        </div>
+        <div class="project-card-header"><span class="project-badge">NLP / Deep Learning</span><h3 class="project-title">Political Bias Detection in News Articles</h3></div>
         <p class="project-desc">Multi-class NLP system classifying political bias (Left, Lean Left, Centre, Lean Right, Right) in 3,458 news articles using deep learning.</p>
-        <ul class="project-highlights">
-          <li>Text preprocessing: URL removal, stopword analysis; RandomOverSampler for class balance</li>
-          <li>Features via TF-IDF (5,000 features) and Keras Tokenizer with sequence padding (maxlen=300)</li>
-          <li>LSTM: Embedding(5000 to 128), LSTM(100, dropout=0.3), Dense(128, ReLU), Softmax output</li>
-          <li>Achieved 88% test accuracy; strongest on clearly partisan categories (Left, Right)</li>
-        </ul>
+        <ul class="project-highlights"><li>Text preprocessing: URL removal, stopword analysis; RandomOverSampler for class balance</li><li>Features via TF-IDF (5,000 features) and Keras Tokenizer with sequence padding (maxlen=300)</li><li>LSTM: Embedding(5000 to 128), LSTM(100, dropout=0.3), Dense(128, ReLU), Softmax output</li><li>Achieved 88% test accuracy; strongest on clearly partisan categories (Left, Right)</li></ul>
         <div class="project-tech"><span>Python</span><span>PyTorch</span><span>LSTM</span><span>TF-IDF</span><span>NLP</span><span>Text Classification</span></div>
-        <a href="https://github.com/Nuel-elege/data-science-projects/tree/main/COM737-Sentiment-Analysis" target="_blank" class="project-link"><i class="fab fa-github"></i> View Code</a>
+        <a href="https://github.com/Nuel-elege/data-science-projects/tree/main/Political-Bias-Detection" target="_blank" class="project-link"><i class="fab fa-github"></i> View Code</a>
       </div>
 
       <div class="project-card">
-        <div class="project-card-header">
-          <span class="project-badge">Data Mining</span>
-          <h3 class="project-title">Loan Approval Prediction</h3>
-        </div>
+        <div class="project-card-header"><span class="project-badge">Data Mining</span><h3 class="project-title">Loan Approval Prediction</h3></div>
         <p class="project-desc">ML pipeline to predict loan approval or rejection using 45,000 applications covering demographics, financial profiles, and loan characteristics.</p>
-        <ul class="project-highlights">
-          <li>Log transformation on 7 skewed features; RobustScaler and SMOTE for class imbalance</li>
-          <li>Compared Logistic Regression, Random Forest, KNN (k=3) via 10-fold cross-validation and ROC-AUC</li>
-          <li>Random Forest achieved 91.8% accuracy; top predictors: loan_percent_income, loan_int_rate, prior defaults</li>
-          <li>Correlation-based feature selection: kept features with r above 0.1 with target variable</li>
-        </ul>
+        <ul class="project-highlights"><li>Log transformation on 7 skewed features; RobustScaler and SMOTE for class imbalance</li><li>Compared Logistic Regression, Random Forest, KNN (k=3) via 10-fold cross-validation and ROC-AUC</li><li>Random Forest achieved 91.8% accuracy; top predictors: loan_percent_income, loan_int_rate, prior defaults</li><li>Correlation-based feature selection: kept features with r above 0.1 with target variable</li></ul>
         <div class="project-tech"><span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>Random Forest</span><span>KNN</span><span>EDA</span></div>
-        <a href="https://github.com/Nuel-elege/data-science-projects/tree/main/COM740-Loan-Approval" target="_blank" class="project-link"><i class="fab fa-github"></i> View Code</a>
+        <a href="https://github.com/Nuel-elege/data-science-projects/tree/main/Loan-Approval-Prediction" target="_blank" class="project-link"><i class="fab fa-github"></i> View Code</a>
       </div>
 
     </div>
@@ -172,39 +121,20 @@
 <!-- EXPERIENCE -->
 <section id="experience" class="section experience-section">
   <div class="container">
-    <div class="section-header">
-      <span class="section-label">My background</span>
-      <h2 class="section-title">Work Experience</h2>
-    </div>
-    <div class="timeline">
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
+    <div class="section-header"><span class="section-label">My background</span><h2 class="section-title">Work Experience</h2></div>
+    <div class="timeline"><div class="timeline-item"><div class="timeline-dot"></div>
         <div class="timeline-content">
-          <div class="timeline-header">
-            <h3>IT Analyst</h3>
-            <span class="timeline-company">Startright Global</span>
-          </div>
+          <div class="timeline-header"><h3>IT Analyst</h3><span class="timeline-company">Startright Global</span></div>
           <p class="timeline-date"><i class="fas fa-calendar-alt"></i> Dec 2021 to Jun 2024 &nbsp; 2 yrs 7 mos</p>
-          <ul class="timeline-bullets">
-            <li>Delivered technical and business training to clients during software deployments, improving system adoption and reducing post-deployment issues</li>
-            <li>Collaborated directly with clients to understand pain points and shape practical solutions, maintaining 95% system uptime</li>
-            <li>Identified opportunities to automate workflows by analysing system performance data, reducing repeat support requests</li>
-            <li>Documented system processes and workflows to reduce onboarding time for new users</li>
-            <li>Delivered technical training to 20+ users, improving effective use of digital tools</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+          <ul class="timeline-bullets"><li>Delivered technical and business training to clients during software deployments, improving system adoption and reducing post-deployment issues</li><li>Collaborated directly with clients to understand pain points and shape practical solutions, maintaining 95% system uptime</li><li>Identified opportunities to automate workflows by analysing system performance data, reducing repeat support requests</li><li>Documented system processes and workflows to reduce onboarding time for new users</li><li>Delivered technical training to 20+ users, improving effective use of digital tools</li></ul>
+        </div></div></div>
   </div>
 </section>
 
 <!-- EDUCATION -->
 <section id="education" class="section education-section">
   <div class="container">
-    <div class="section-header">
-      <span class="section-label">Academic background</span>
-      <h2 class="section-title">My Education</h2>
-    </div>
+    <div class="section-header"><span class="section-label">Academic background</span><h2 class="section-title">My Education</h2></div>
     <div class="edu-grid">
       <div class="edu-card"><div class="edu-card-icon"><i class="fas fa-graduation-cap"></i></div><div class="edu-card-body"><h3>MSc Data Science</h3><p class="edu-institution">Ulster University</p><p class="edu-date">Sep 2024 to Sep 2025</p><span class="edu-badge">Distinction</span><p class="edu-dissertation">Dissertation: Detecting eczema symptoms using classification algorithms, applied supervised machine learning to IMU sensor data for objective clinical assessment.</p></div></div>
       <div class="edu-card"><div class="edu-card-icon"><i class="fas fa-university"></i></div><div class="edu-card-body"><h3>BSc Mathematics</h3><p class="edu-institution">University of Benin</p><p class="edu-date">Nov 2021</p><p class="edu-dissertation">Dissertation: Studying different numerical methods on solving first order differential equations.</p></div></div>
@@ -215,10 +145,7 @@
 <!-- CONTACT -->
 <section id="contact" class="section contact-section">
   <div class="container">
-    <div class="section-header">
-      <span class="section-label">Lets connect</span>
-      <h2 class="section-title">Get In Touch</h2>
-    </div>
+    <div class="section-header"><span class="section-label">Lets connect</span><h2 class="section-title">Get In Touch</h2></div>
     <p class="contact-intro">I am currently open to Data Scientist, ML Engineer, and Data Analyst opportunities in Belfast and remotely. Feel free to reach out!</p>
     <div class="contact-cards">
       <a href="mailto:nuel.elege@gmail.com" class="contact-card"><i class="fas fa-envelope"></i><span class="contact-label">Email</span><span class="contact-value">nuel.elege@gmail.com</span></a>
